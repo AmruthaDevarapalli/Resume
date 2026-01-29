@@ -676,6 +676,11 @@ body {
     color: #2cb67d;
 }
 
+.project-icon.filtercheck {
+    background: linear-gradient(135deg, rgba(240, 160, 50, 0.2), rgba(224, 82, 82, 0.2));
+    color: #f0a032;
+}
+
 .project-link {
     color: var(--text-muted);
     font-size: 1.2rem;
@@ -695,6 +700,22 @@ body {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+}
+
+.project-live-link {
+    margin-bottom: 0.75rem !important;
+}
+
+.project-live-link a {
+    color: var(--accent-light);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.project-live-link a:hover {
+    color: var(--accent);
 }
 
 .project-body > p {
