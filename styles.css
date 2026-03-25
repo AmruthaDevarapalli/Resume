@@ -681,6 +681,11 @@ body {
     color: #f0a032;
 }
 
+.project-icon.drugwise {
+    background: linear-gradient(135deg, rgba(60, 180, 200, 0.2), rgba(80, 220, 140, 0.2));
+    color: #3cb4c8;
+}
+
 .project-link {
     color: var(--text-muted);
     font-size: 1.2rem;
